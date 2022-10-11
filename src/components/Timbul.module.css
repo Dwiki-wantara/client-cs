@@ -1,0 +1,22 @@
+.Square{
+  transition: width 2s, height 4s;
+}
+ 
+.Square:hover {
+ box-shadow: 0px 0px 20px red;
+}
+
+.button{
+  border-radius :8px;
+  background-color: transparent;
+  border-color:white;
+  padding:2px 10px;
+  border:2px solid white;
+  color:white; 
+  font-weight: bold;
+  }
+  
+.button:hover{
+ background-color: azure;
+ color: rgb(157, 157, 157)
+}
